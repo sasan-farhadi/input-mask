@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #005c97, #363795);
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.content h3,
+p {
+    color: #fff;
+}
+
+.content img {
+    width: 60px;
+    height: auto;
+}

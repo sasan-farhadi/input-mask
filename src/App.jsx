@@ -1,6 +1,10 @@
+import Home from "./components/templates/Home"
 
-function App() {
-   return <div></div>
+const App = () => {
+   return (
+      <>
+         <Home />
+      </>
+   )
 }
-
-export default App;
+export default App
