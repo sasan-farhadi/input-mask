@@ -1,0 +1,13 @@
+.footer {
+    background: linear-gradient(to right, #005c97, #363795);
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f3ef18;
+}

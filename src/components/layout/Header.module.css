@@ -1,4 +1,4 @@
-.content {
+.header {
     display: flex;
     justify-content: space-between;
     background: linear-gradient(to right, #005c97, #363795);
@@ -7,12 +7,12 @@
     margin-bottom: 15px;
 }
 
-.content h3,
+.header h3,
 p {
     color: #fff;
 }
 
-.content img {
+.header img {
     width: 60px;
     height: auto;
 }
