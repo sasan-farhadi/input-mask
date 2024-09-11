@@ -1,0 +1,19 @@
+.cities {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.cities ul {
+    list-style: none;
+    color: #fff;
+}
+
+.cities ul li {
+    width: 200px;
+    background-color: #6c5ce7;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}

@@ -13,9 +13,9 @@
   --timing: 0.3s;
   --width-of-input: 400px;
   --height-of-input: 50px;
-  --border-height: 2px;
+  --border-height: 6px;
   --input-bg: #fff;
-  --border-color: #2f2ee9;
+  --border-color: #005c97;
   --border-radius: 30px;
   --after-border-radius: 1px;
   position: relative;
