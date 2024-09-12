@@ -27,7 +27,7 @@
     color: #000;
 }
 
-.cities ul li:hover::after{
+.cities ul li:hover::after {
     content: " - Click Me!";
     color: #6c5ce7;
     font-weight: bold;

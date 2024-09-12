@@ -21,17 +21,20 @@ const SearchResult = ({ text }) => {
 
     return (
         <div className="container">
-            <div className={styles.cities}>
-                {
-                    citiesList.map((x, index) => {
-                        return (
-                            <ul key={index}>
-                                <a href={`https://www.google.com/search?q=${x}`} target='_blank'><li>{x}</li></a>
-                            </ul>
-                        )
-                    })
-                }
-            </div>
+            {
+                text && <div className={styles.cities}>
+                    {
+                        citiesList.map((x, index) => {
+                            return (
+                                <ul key={index}>
+                                    <a href={`https://www.google.com/search?q=${x}`} target='_blank'><li>{x}</li></a>
+                                </ul>
+                            )
+                        })
+                    }
+                </div>
+            }
+
         </div>
     )
 }

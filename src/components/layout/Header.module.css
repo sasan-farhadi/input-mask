@@ -12,6 +12,10 @@ p {
     color: #fff;
 }
 
+.header span {
+    font-size: 1.2rem;
+}
+
 .header img {
     width: 60px;
     height: auto;

@@ -28,6 +28,7 @@
   border-radius: var(--border-radius);
   transition: border-radius 0.5s ease;
   background: var(--input-bg, #fff);
+  box-shadow: 0px 0px 30px 0px #ffffff;
 }
 
 .input {
@@ -54,6 +55,7 @@
   bottom: 0;
   border-radius: 1px;
   transition: transform var(--timing) ease;
+
 }
 
 .form:focus-within {

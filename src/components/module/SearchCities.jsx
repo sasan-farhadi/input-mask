@@ -1,5 +1,6 @@
 import styles from './SearchCities.module.css'
 const SearchCities = ({ text, setText }) => {
+
     return (
         <div className="container">
             <div className={styles.searchbox}>
@@ -8,6 +9,7 @@ const SearchCities = ({ text, setText }) => {
                         name="search"
                         type="text"
                         value={text}
+                        placeholder='Search ...'
                         onChange={e => setText(e.target.value)} />
                 </div>
             </div>
