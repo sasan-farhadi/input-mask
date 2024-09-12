@@ -1,4 +1,5 @@
 .searchbox {
+  position: relative;
   width: 600px;
   height: auto;
   border-radius: 20px;
@@ -15,7 +16,7 @@
   --height-of-input: 50px;
   --border-height: 6px;
   --input-bg: #fff;
-  --border-color: #005c97;
+  --border-color: #700000;
   --border-radius: 30px;
   --after-border-radius: 1px;
   position: relative;
@@ -39,6 +40,7 @@
   padding-block: 0.7em;
   border: none;
 }
+
 
 .form:before {
   content: "";

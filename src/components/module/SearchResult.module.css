@@ -16,4 +16,24 @@
     padding: 15px;
     border-radius: 10px;
     text-align: center;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+
+.cities ul li:hover {
+    transform: scale(1.03);
+    background-color: #ffffff;
+    color: #000;
+}
+
+.cities ul li:hover::after{
+    content: " - Click Me!";
+    color: #6c5ce7;
+    font-weight: bold;
+}
+
+.cities a {
+    text-decoration: none;
+    color: #fff;
 }
