@@ -3,13 +3,15 @@ import cities from '../../cities.json'
 import styles from './SearchResult.module.css'
 
 const SearchResult = ({ text }) => {
-    const [citiesList, setCitiesList] = useState(cities)
+    const [citiesList, setCitiesList] = useState([])
 
     useEffect(() => {
+        setCitiesList([])
         const searchHandler = () => {
             if (text) {
-                const newCities = citiesList.filter(x => x.includes(text))
+                const newCities = cities.filter(x => x.includes(text))
                 setCitiesList(newCities)
+                console.log("cities List : ", newCities);
             } else {
                 setCitiesList(cities)
             }
