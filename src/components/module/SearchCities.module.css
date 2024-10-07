@@ -110,6 +110,6 @@ input:not(:placeholder-shown)~.reset {
   text-align: center;
   font-weight: bold;
   padding: 5px 0;
-  border-bottom: 4px solid #c40101;
+  border-bottom: 4px solid #bb0e0e;
   animation: identifier 1s 1;
 }
