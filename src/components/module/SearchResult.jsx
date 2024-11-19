@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
+
 import cities from '../../cities.json'
 import SearchCities from "../module/SearchCities"
 import styles from './SearchResult.module.css'
 
 const SearchResult = () => {
+    
     const [citiesList, setCitiesList] = useState([])
     const [suggestion, setSuggestion] = useState("")
     const [text, setText] = useState("")
@@ -25,14 +27,17 @@ const SearchResult = () => {
 
     return (
         <div className="container">
-            <SearchCities text={text} setText={setText} suggestion={suggestion} setSuggestion={setSuggestion} />
+            <SearchCities text={text} setText={setText}
+                suggestion={suggestion}
+                setSuggestion={setSuggestion} />
             {
                 text && <div className={styles.cities}>
                     {
                         citiesList.map((x, index) => {
                             return (
                                 <ul key={index}>
-                                    <a href={`https://www.google.com/search?q=${x}`} target='_blank'><li>{x}</li></a>
+                                    <a href={`https://www.google.com/search?q=${x}`}
+                                        target='_blank'><li>{x}</li></a>
                                 </ul>
                             )
                         })
