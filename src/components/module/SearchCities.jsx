@@ -15,7 +15,7 @@ const SearchCities = ({ text, setText, suggestion }) => {
             setAlertShow("block")
             return
         } else if (!regUpperCase.test(text)) {
-            setAlert("Start with capital letters")
+            setAlert("Start with capital letters!")
             setAlertShow("block")
             return
         } else {
