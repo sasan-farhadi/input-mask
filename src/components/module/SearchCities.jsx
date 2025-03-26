@@ -37,7 +37,7 @@ const SearchCities = ({ text, setText, suggestion }) => {
                         name="search"
                         type="text"
                         value={text}
-                        placeholder='Search ...'
+                        placeholder='Search...'
                         onChange={inputHandler} />
                 </div>
             </div>
